@@ -1,0 +1,192 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(201, 198, 198);
+}
+
+.nav_item div{
+    display: flex;
+    align-items: center;
+}
+
+.nav_item{
+    background:linear-gradient( to right, rgba(243, 175, 48, 0.877),rgba(224, 31, 105, 0.849)) ;
+    color: #fff;
+    /* padding: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav1_icon a i{
+    border-right: 2px solid #fff;
+    padding: 10px;
+}
+
+#slash{
+    padding: 0 15px 0 15px;
+}
+
+.nav1_btn button{
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    padding:8px;
+    color: white;
+}
+
+nav{
+    background: #ffffff;
+    /* padding: 10px 0; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav2_logo{
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://images.pexels.com/photos/5833334/pexels-photo-5833334.jpeg') center/cover no-repeat;
+    height: 45vh;
+    color: #0c0909;
+    text-align:center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: rgb(224, 224, 224);
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: rgb(211, 209, 209);
+}
+
+.btn {
+    background:linear-gradient( to right, rgba(243, 175, 48, 0.795),rgba(224, 31, 105, 0.767)) ;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+/* Features Section */
+.features {
+    background:linear-gradient( to right, rgba(243, 175, 48, 0.877),rgba(224, 31, 105, 0.849)) ;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.feature {
+    text-align: center;
+    flex: 1;
+    margin: 0 20px;
+}
+
+.feature h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 1rem;
+}
+
+/* about section  */
+
+#about{
+    display: flex;
+    align-items: center;
+}
+
+.left_side{
+    padding: 10px 0 100px 120px;
+}
+
+.right_side img{ 
+    padding-bottom: 190px ;
+    padding-right: 100px;
+}
+
+.left_side button{
+    border-radius: 15px;
+    padding: 8px;
+    background:linear-gradient( to right, rgba(243, 175, 48, 0.795),rgba(224, 31, 105, 0.767)) ;
+    border: none;
+}
+
+/* service section */
+
+.heading{
+    padding-left: 100px;
+}
+
+#services {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+h2 i{
+    background:linear-gradient( to right, rgba(243, 175, 48, 0.795),rgba(224, 31, 105, 0.767)) ;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.img_1 h2{
+    /* border: 2px solid red; */
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    border-radius:30px 0 0 30px ;
+}
+.img_2 h2{
+    margin: 0;
+    border-radius:30px 0 0 30px ;
+    background-color: rgb(255, 255, 255);
+}
+.img_3 h2{
+    margin: 0;
+    border-radius:30px 0 0 30px ;
+    background-color: rgb(255, 255, 255);    
+}
+
+/* Footer */
+footer {
+    background:linear-gradient( to right, rgba(243, 175, 48, 0.795),rgba(224, 31, 105, 0.767)) ;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.nav_item i{
+    color: rgb(255, 255, 255);
+    
+}
